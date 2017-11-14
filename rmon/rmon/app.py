@@ -5,7 +5,7 @@
 """
 import os
 from flask import Flask
-from rmon.views import import api
+from rmon.views import api
 from rmon.models import db
 from rmon.config import DevConfig,ProductConfig
 

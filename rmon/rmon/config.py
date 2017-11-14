@@ -22,7 +22,7 @@ class ProductConfig(DevConfig):
     """
     DEBUG = False
     # sqlite 数据库文件路径
-    path = os.path.join(os.getcwd(),'rmob.db').replcae('\\','/')
+    path = os.path.join(os.getcwd(),'rmob.db').replace('\\','/')
     SQLALCHEMY_DATABASE_URI = 'sqlite:///%s' % path
 
     
