@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from simpledu.config import configs
-from simpledu.models import db, Course
+from simpledu.models import db, Course,User
 
 def register_blueprints(app):
     from .handlers import front, course, admin,user
